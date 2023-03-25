@@ -1,0 +1,22 @@
+.Product-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.Product-container a{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.Product-container a:hover{
+    color: blue;
+}
+.Product-container img{
+    height: 80px;
+    width: 80px;
+}

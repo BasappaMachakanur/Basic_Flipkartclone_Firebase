@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#logoBlock a {
+    text-decoration-style: double;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logoBlock sub {
+    font-size: 18px;
+    color: yellow;
+}
+
+#Nav-container {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#logoBlock {
+    color: white;
+
+}
+
+#menuBlock {
+    margin-top: 20px;
+
+}
+
+#menuBlock ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menuBlock ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+#menuBlock ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+#loginbtn button {
+    margin-left: 20px;
+    background-color: white;
+    color: blue !important;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px !important;
+}
+
+#input-container input {
+    /* border-radius: 10px; */
+    padding: 5px;
+    width: 300px;
+
+}
+
+#main-container {
+    width: 100%;
+    background-color: blue;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#cart-container a {
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* #loginbtn{
+    position: relative;
+} */
+
+#dropDown {
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+    z-index: 999999;
+
+}
+
+#loginbtn:hover #dropDown {
+    display: block;
+}
+
+#input-container {
+    position: relative;
+}
+
+#input-container span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    padding-left: 5px;
+
+}
+
+.custom-dialog{
+    width: 700px;
+    position: relative;
+   
+}
+
+.dialogbtn{
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    background:transparent;
+    left: -40px;
+    background-color: none;
+    border: none;
+}
